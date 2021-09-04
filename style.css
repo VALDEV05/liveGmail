@@ -9,6 +9,7 @@ body{
     background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg );
     width: 80%;
     margin: auto;
+    height: 1000px;
 }
 .logo{
     display: inline-block;
@@ -22,5 +23,37 @@ body{
     font-size: 30px;
 }
 .space{
+    margin-top: 20px;
+}
+.last{ 
+    margin-top:10px;
+}
+.section-search{
     margin-top: 10px;
+}
+.btn{
+    padding:0 .5rem;
+}
+.title-unread{
+    margin: 8px 0 10px 0;
+    padding-top: 10px;
+    color: white;
+    font-size: 25px;
+}
+.unread-count{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 10px;
+  
+}
+.section-email-unread{
+    margin-top: 10px;
+}
+.row-email-unread{
+    background-color: grey;
+}
+.row{
+    padding-left: 5px;
+    font-size: 19px;
+    border-bottom: 2px solid black;
 }
